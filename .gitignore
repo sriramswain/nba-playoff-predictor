@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment (don't upload your local venv)
+venv/
+
+# Environment files (contains secrets like API keys)
+.env
+.env.*
+
+# Jupyter & notebook junk
+*.ipynb_checkpoints
+
+# Data files
+*.csv
+*.xlsx
+data/
+
+# VS Code settings (personalized settings)
+.vscode/
+
+# Mac & Windows system files
+.DS_Store
+Thumbs.db
+
+# Node.js frontend stuff (optional if using React)
+node_modules/
+dist/
+build/
